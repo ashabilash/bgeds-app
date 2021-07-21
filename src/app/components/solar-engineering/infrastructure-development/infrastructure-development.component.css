@@ -1,0 +1,184 @@
+.sub-header {
+    background: rgb(79,121,9);
+    background: linear-gradient(90deg, rgba(79,121,9,1) 0%, rgba(237,242,6,1) 0%, rgba(0,255,205,1) 100%);    
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top:120px;
+}
+
+.titleFont {
+    font-size: 72px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+
+}
+
+hr {
+    border: 1;
+    clear:both;
+    display:block;
+    width: 80%;               
+    background-color:rgb(12, 12, 0);
+    height: 2px;
+    margin-top:2px;
+    margin-left: 0px;
+  }
+
+  
+.sub-text {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+section .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.service-header {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: 500px;
+    text-align: center;
+    color: darkgreen;
+}
+
+.service-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: 300px;
+}
+
+.grey-content {
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+    background: #efefef
+}
+
+.flow-class {
+    width:80%;
+    height: 80%;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.services-cards{
+    margin-top: 30px;
+}
+
+.card-util{
+    height: 400px;
+}
+
+.card-util:hover{
+    transform: scale(1.05);
+}
+
+
+.infrastructure-development-card-1 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-1.png');
+    background-size: contain;
+}
+
+.infrastructure-development-card-2 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-2.png');
+    background-size: contain;
+}
+
+.infrastructure-development-card-3 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-3.png');
+    background-size: cover;
+}
+
+.infrastructure-development-card-4 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-4.jpg');
+    background-size: cover;
+}
+
+.infrastructure-development-card-5 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-5.jpg');
+    background-size: contain;
+}
+
+.infrastructure-development-card-6 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-6.jpg');
+    background-size: cover;
+}
+
+@media (max-width:767px){
+	#services-overview h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    }
+
+    .services-cards{
+        margin-top: 15px;
+    }
+    .card-service-util{
+        
+        width: 100%;
+    }
+
+    .service-header {
+        margin-top: 15px;
+        font-size: 28px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+        font-weight: 500px;
+        text-align: center;
+        color: darkgreen;
+    }
+
+    .flow-class {
+        width:100%;
+        height: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+    .text-card{
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+        color: antiquewhite;
+        margin-top:70px;
+    }
+
+    .sub-header {
+        background: rgb(79,121,9);
+        background: linear-gradient(90deg, rgba(79,121,9,1) 0%, rgba(237,242,6,1) 0%, rgba(0,255,205,1) 100%);    
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top:100px;
+    }
+    
+    .titleFont {
+        font-size: 36px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 20px;
+        padding-left:10px;
+    }
+    .sub-text {
+        font-size: 20px;
+        padding-left:10px;
+    
+    }
+}

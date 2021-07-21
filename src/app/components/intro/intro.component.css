@@ -1,0 +1,69 @@
+#demoFont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+    word-spacing: 1.2px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.logo {
+    width:100;
+    height:20vh;
+}
+
+#demoFont2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 1.0ng gpx;
+    color: rgb(201, 201, 201);
+    font-weight: 10;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+@media (max-width:767px){
+  #demoFont{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 0.6px;
+    color: #FFFFFF;
+    font-weight: 150;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+  }
+  #demoFont2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 1.0ng gpx;
+    color: rgb(201, 201, 201);
+    font-weight: 10;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+.logo{
+    height: 12vh;
+}
+
+.card-img{
+        width: 100%;
+        height: 45vh;
+    }
+
+}
+
+
+

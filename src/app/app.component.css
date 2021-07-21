@@ -1,0 +1,24 @@
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+
+  display: table;
+}
+
+
+.scroll-bg {
+  background-color: #0f0f0a;
+  padding: 10px 70px;
+  color: #676767;
+}

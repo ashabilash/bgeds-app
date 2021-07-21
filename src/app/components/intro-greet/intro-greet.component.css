@@ -1,0 +1,123 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#demoFont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+    word-spacing: 1.2px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+#headerText{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+    color: rgb(201, 8, 8);
+  /*  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #df1077, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+*/
+}
+
+#headerNote{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: bold;
+    letter-spacing: 4px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff;
+
+/*    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #df1077, 0 0 10px #e60073, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073;
+*/
+}
+
+.logo {
+    width:100;
+    height:25vh;
+
+}
+
+.card {
+    background-color: transparent;
+    height: 620px;
+    border:none;
+}
+
+#demoFont2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 1.0ng gpx;
+    color: #FFFFFF;
+    font-weight: 10;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+@media (max-width:767px){
+  #demoFont{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 0.6px;
+    color: #FFFFFF;
+    font-weight: 150;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+  }
+
+  #headerText{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff;
+    color: rgb(196, 35, 35);
+}
+
+#headerNote{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: bold;
+    letter-spacing: 2px;
+    color: rgb(218, 55, 55);
+    text-shadow: 0 0 0.5px #fff, 0 0 0.5px #fff;
+
+/*    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #df1077, 0 0 10px #e60073, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073;
+*/
+}
+
+  #demoFont2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    word-spacing: 1.0ng gpx;
+    color: rgb(201, 201, 201);
+    font-weight: 100;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-variant: normal;
+    text-transform: none;
+}
+.logo{
+    height: 8vh;
+}
+.card {
+    padding-top: 6vh;
+    background-color: transparent;
+    height: 40vh;
+    border: none;
+}
+
+}
+

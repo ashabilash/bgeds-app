@@ -1,0 +1,31 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');section {
+    padding: 25px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #f8f8f8;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#contactperson{
+    background-color: #d8d8ac;
+    background-image: linear-gradient(315deg, #d8d8ac 0%, #c8c85e 74%);
+}
+
+#contactperson h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #187fb6;
+}
+
+#contactperson .desc{
+    margin-bottom: 30px;    
+    color: #00080c;
+}
+
+#contactperson .content{
+    text-align: center;
+    padding-left: 10px;
+}

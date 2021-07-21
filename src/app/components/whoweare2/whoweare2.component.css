@@ -1,0 +1,42 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#whoweare2 {
+    background: transparent  !important;
+    color: aliceblue;
+}
+
+#whoweare2 h2{
+    text-align: center;
+}
+
+#whoweare2 #desc{
+    padding: 3px 0;
+    font-size:16px;
+    font-weight: 500;
+    text-align: justify;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+@media (max-width:767px){
+	#whoweare2 h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}

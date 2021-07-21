@@ -1,0 +1,28 @@
+.fixed-bg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%; 
+    width: 100%;
+  
+    display: table;
+  }
+
+.bg-1 {
+    background-image:
+    linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.6) ), 
+      url('../../assets/background/road-to-forest.jpg');
+  }
+  
+  .bg-2 {
+    background-image:
+    linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.9) ),
+      url('../../assets/background/solar-bg.jpg');
+  }
+  
+  .bg-3 {
+    background-image:
+    linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.9) ),
+      url('../../assets/background/group-bg.jpg');
+  }
