@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="form-control">
-                    <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+                    <form [formGroup]="FormData" >
                         <div class="form-group form-element">
                             <label for="Email">Email</label>
                             <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email" formControlName="Email">
