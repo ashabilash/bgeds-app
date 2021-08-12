@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-import { ReactiveFormsModule } from '@angular/forms';  
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -29,6 +29,9 @@ import { RackingStructureDesignComponent } from './components/solar-engineering/
 import { InfrastructureDevelopmentComponent } from './components/solar-engineering/infrastructure-development/infrastructure-development.component';
 import { PvLayoutComponent } from './components/solar-engineering/pv-layout/pv-layout.component';
 import { CorrosionStudyComponent } from './components/solar-engineering/corrosion-study/corrosion-study.component';
+import { FieldTestingComponent } from './components/solar-engineering/field-testing/field-testing.component';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AddressComponent } from './components/address/address.component';
 
 
 const routes: Routes = [
@@ -43,6 +46,7 @@ const routes: Routes = [
   { path: 'solar-engineering/infrastructure-development', component: InfrastructureDevelopmentComponent },
   { path: 'solar-engineering/pv-layout', component: PvLayoutComponent },
   { path: 'solar-engineering/corrosion-study', component: CorrosionStudyComponent },
+  { path: 'solar-engineering/field-testing', component: FieldTestingComponent },
   { path: '**',   redirectTo: '/home', pathMatch: 'full' },
   { path: '',   redirectTo: '/home', pathMatch: 'full' }
 ];
@@ -68,10 +72,12 @@ const routes: Routes = [
     RackingStructureDesignComponent,
     InfrastructureDevelopmentComponent,
     PvLayoutComponent,
-    CorrosionStudyComponent
+    CorrosionStudyComponent,
+    FieldTestingComponent,
+    AddressComponent
   ],
   imports: [
-    BrowserModule, NgbModule, FormsModule, RouterModule.forRoot(routes), ReactiveFormsModule
+    BrowserModule, NgbModule, FormsModule, RouterModule.forRoot(routes), ReactiveFormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

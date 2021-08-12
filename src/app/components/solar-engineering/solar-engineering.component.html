@@ -1,18 +1,28 @@
 <section id="solar-engineering">
     <div class="sub-header">
-        <div class="container d-flex flex-column">
-            <div class="row">
-                <div class="titleFont">
-                    Solar Engineering
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+            <ng-template ngbSlide *ngFor="let img of images; index as i">
+                <div class="carousel-caption" *ngIf="i==0">
+                    <div class="container d-flex flex-column">
+                        <div class="row">
+                            <div class="titleFont">
+                                Solar Engineering
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div class="row sub-text">
+                            Assisting through complete infrastructure planning and designing for project setup
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <hr/>
-            </div>
-            <div class="row sub-text">
-                Assisting through complete infrastructure planning and designing for project setup
-            </div>
-        </div>
+                <div class="picsum-img-wrapper overlay">
+                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+
     </div>
     <div class="services-overview">
 

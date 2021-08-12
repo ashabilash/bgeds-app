@@ -42,3 +42,7 @@ li:active, li:link{
 .modal-title{
     text-align: center;
 }
+
+.submit-button {
+    margin-left:170px;
+}

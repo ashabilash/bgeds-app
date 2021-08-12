@@ -1,38 +1,54 @@
-
 <section id="racking-structure-design">
-        <div class="sub-header">
-            <div class="container d-flex flex-column">
-                <div class="row">
-                    <div class="titleFont">
-                        Racking Structure Design
+    <div class="sub-header">
+
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+            <ng-template ngbSlide *ngFor="let img of images; index as i">
+                <div class="carousel-caption" *ngIf="i==0">
+                    <div class="container d-flex flex-column">
+                        <div class="row">
+                            <div class="titleFont">
+                                Racking Structure Design
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div class="row sub-text">
+                            Develop Preliminary and Detailed Design and Drawings for Racking Structure
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <hr/>
+                <div class="picsum-img-wrapper overlay">
+                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
                 </div>
-                <div class="row sub-text">
-                    Assisting through complete infrastructure planning and designing for project setup
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="grey-content-1">
+        <div class="container d-flex flex-column">
+            <div class="row service-header">
+                BGEDS Racking Structure Overview
+            </div>
+            <div class="row service-info">
+                BGEDS has vast experiences in developing Preliminary and Detailed design and drawings for racking structure based on AISC
+                360-10 in line with ASCE 7-10/7-16 in lines. While dynamic instability is critical for PV racking, team expertise
+                in deriving the Design based on Wind tunnel test from RWDI, CPP, etc., BGEDS develops the most appropriate
+                design based on DC system requirement and calculation package is stamped with our licensed PE Partners across
+                the Globe. The team delivered more than 5 GW PV racking design worldwide for different racking solutions
+                such as ground-mount Single-axis 1P /2P, Fixed, Rooftop and Car Port, etc., we use In-house developed sheet
+                and FEA platform to develop design and drawings such as RISA, SAP, Soil works and AutoCAD, etc., We also
+                delivered project based on EN, AZ, SNI, IS, SBC and other international codes.
+            </div>
+            <div class="card-deck services-cards">
+                <div class="card mb-4 racking-structure-design-card-1 card-util">
+                </div>
+
+                <div class="card mb-4 racking-structure-design-card-2 card-util">
+                </div>
+                <div class="card mb-4 racking-structure-design-card-3 card-util">
                 </div>
             </div>
         </div>
-        <div class="grey-content">
-            <div class="container d-flex flex-column">
-                <div class="row service-header">
-                    BGEDS Racking Structure Overview
-                </div>
-                <div class="row service-info">
-                        BGEDS has vast experiences in developing Preliminary and Detailed design and drawings for racking structure based on AISC 360-10 in line with ASCE 7-10/7-16 in lines. While dynamic instability is critical for PV racking, team expertise in deriving the Design based on Wind tunnel test from RWDI, CPP, etc., BGEDS develops the most appropriate design based on DC system requirement and calculation package is stamped with our licensed PE Partners across the Globe. The team delivered more than 5 GW PV racking design worldwide for different racking solutions such as ground-mount Single-axis 1P /2P, Fixed, Rooftop and Car Port, etc., we use In-house developed sheet and FEA platform to develop design and drawings such as RISA, SAP, Soil works and AutoCAD, etc., We also delivered project based on EN, AZ, SNI, IS, SBC and other international codes. 
-                </div>
-                <div class="card-deck services-cards">
-                        <div class="card mb-4 racking-structure-design-card-1 card-util">
-                        </div>
-        
-                        <div class="card mb-4 racking-structure-design-card-2 card-util">
-                        </div>
-                        <div class="card mb-4 racking-structure-design-card-3 card-util">
-                        </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 </section>

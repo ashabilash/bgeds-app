@@ -31,6 +31,7 @@
     "primeng": "^12.0.1",
     "rxjs": "^6.6.7",
     "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.1.2",
     "tslib": "^1.14.1",
     "zone.js": "~0.9.1"
   },

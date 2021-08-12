@@ -1,0 +1,57 @@
+<section id="field-testing">
+    <div class="sub-header">
+
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+                <ng-template ngbSlide *ngFor="let img of images; index as i">
+                    <div class="carousel-caption" *ngIf="i==0">
+                        <div class="container d-flex flex-column">
+                            <div class="row">
+                                <div class="titleFont">
+                                        Field Testing Services: Topo, Soil Investigation &amp; Pull Test
+                                </div>
+                            </div>
+                            <div class="row">
+                                <hr/>
+                            </div>
+                            <div class="row sub-text">
+                                    Other Engineering Services Rendered
+                            </div>
+                        </div>
+                    </div>
+                    <div class="picsum-img-wrapper overlay">
+                        <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+    </div>
+    <div class="grey-content-1">
+        <div class="container d-flex flex-column">
+            <div class="row service-header">
+                BGEDS Field Testing Services Overview
+            </div>
+            <div class="row service-info">
+                As BGEDS provides end to end solution it also makes us sensitive to consider all the due diligence related activity as support to the customer. Hence the BGEDS adopt the location-based teams to engage the Topo Survey, Geotech Investigation and Pull Test services.
+            </div>
+
+
+            <div class="card-deck services-cards">
+                <div class="card mb-4 ">
+                    <div class="card-body field-testing-card-1 card-util"></div>
+                    <div class="card-footer bg-transparent text-center">Compression Test</div>
+                </div>
+
+                <div class="card mb-4 ">
+                    <div class="card-body field-testing-card-2 card-util"></div>
+                    <div class="card-footer bg-transparent text-center">Lateral Test</div>
+                </div>
+                <div class="card mb-4 ">
+                        <div class="card-body field-testing-card-3 card-util"></div>
+                        <div class="card-footer bg-transparent text-center">Uplift Test</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>

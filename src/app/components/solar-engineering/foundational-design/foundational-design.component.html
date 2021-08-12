@@ -1,21 +1,31 @@
 
 <section id="foundation-design-analysis">
         <div class="sub-header">
-            <div class="container d-flex flex-column">
-                <div class="row">
-                    <div class="titleFont">
-                        Foundation Design
-                    </div>
-                </div>
-                <div class="row">
-                    <hr/>
-                </div>
-                <div class="row sub-text">
-                    Assisting through complete infrastructure planning and designing for project setup
-                </div>
-            </div>
+
+            <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+                    <ng-template ngbSlide *ngFor="let img of images; index as i">
+                        <div class="carousel-caption" *ngIf="i==0">
+                            <div class="container d-flex flex-column">
+                                <div class="row">
+                                    <div class="titleFont">
+                                            Foundation Design
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <hr/>
+                                </div>
+                                <div class="row sub-text">
+                                        Creation of a Construction Plan for a Building Foundation
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picsum-img-wrapper overlay">
+                            <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                        </div>
+                    </ng-template>
+                </ngb-carousel>
         </div>
-        <div class="grey-content">
+        <div class="grey-content-1">
             <div class="container d-flex flex-column">
                 <div class="row service-header">
                     Geotechnical Investigation &amp; Recommendation
@@ -46,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="grey-content">
+        <div class="grey-content-2">
             <div class="container d-flex flex-column">
                 <div class="row service-header">
                     Pile / Foundation - Embedment and Profile Analysis

@@ -5,14 +5,19 @@
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top:120px;
+    padding-top:75px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+
 }
 
 .titleFont {
     font-size: 72px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 20px;
-
 }
 
 hr {
@@ -20,11 +25,19 @@ hr {
     clear:both;
     display:block;
     width: 80%;               
-    background-color:rgb(12, 12, 0);
+    background-color:rgb(255, 255, 255);
     height: 2px;
     margin-top:2px;
     margin-left: 0px;
   }
+
+.overlay{
+    background:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+  }
+
+
+
 
   
 .sub-text {
@@ -40,7 +53,8 @@ section .section-title {
 }
 .services-overview {
     background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
-    background: #efefef
+    background: #efefef;
+    margin-top: 80px;
 }
 
 .services-overview h2{
@@ -59,7 +73,6 @@ section .section-title {
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
         url('../../../assets/services/solar-engineering/grading-analysis/grading-analysis-1.png');
     background-size: cover;
-    
 }
 
 .racking-structure-design-card {
@@ -67,7 +80,6 @@ section .section-title {
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
         url('../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.jpg');
     background-size: cover;
-    
 }
 
 .infrastructure-development-card {
@@ -75,7 +87,6 @@ section .section-title {
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
         url('../../../assets/services/solar-engineering/infrastructure-development/slope-map-analysis.png');
     background-size: cover;
-    
 }
 
 .pv-layout-card {
@@ -83,7 +94,6 @@ section .section-title {
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
         url('../../../assets/services/solar-engineering/pv-layout/pv-layout-5.jpg');
     background-size: cover;
-    
 }
 
 .corrosion-study-card {
@@ -91,7 +101,6 @@ section .section-title {
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
         url('../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
     background-size: cover;
-    
 }
 
 .card-service-util{
@@ -108,7 +117,6 @@ section .section-title {
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
         url('../../../assets/services/solar-engineering/foundation-design/foundation-design-2.jpg');
     background-size: cover;
-    
 }
 
 .text-card{
@@ -153,14 +161,19 @@ section .section-title {
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-top:100px;
+        padding-top:60px;
+    }
+
+    .carousel-image {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     .titleFont {
         font-size: 36px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        margin-top: 20px;
-        padding-left:10px;
     }
     .sub-text {
         font-size: 20px;

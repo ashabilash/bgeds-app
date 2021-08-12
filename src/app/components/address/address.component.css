@@ -1,0 +1,18 @@
+.address {
+    background: #a8b2dd;
+    /* #efe2ba;*/
+}
+
+.address-space {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+
+.expertise {
+    text-align: justify;
+}
+
+
+

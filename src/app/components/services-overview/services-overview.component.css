@@ -1,24 +1,50 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');section {
-    padding: 25px 0;
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 0 0;
 }
 
 section .section-title {
-    text-align: center;
-    margin-bottom: 40px;
+    text-align: center;   
     text-transform: uppercase;
 }
-#services-overview {
+
+
+.grey-content {
     background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
-    background: #efefef
+    background: #efefef;
+    
+}
+
+.content-header {
+    padding-top:40px;
+    
+}
+
+.pillar {
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 40px;
 }
 
 #services-overview h2{
     text-align: center;
+    color: darkgreen;
     
 }
 
 .services-cards{
     margin-top: 30px;
+}
+
+.service-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: 300px;
+    text-align: justify;
 }
 
 .solar-card {
@@ -40,7 +66,7 @@ section .section-title {
 .infrastructure-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/card/infrastructure-engineering.jpg');
+        url('../../../assets/card/industrial-picture.jpg');
     background-size: cover;
     height: 250px;
 }
@@ -72,6 +98,11 @@ section .section-title {
     .infrastructure-card {
         height: 200px;
     }
+    .pillar {
+        width:100%;
+        
+    }
+
     
 }
 
