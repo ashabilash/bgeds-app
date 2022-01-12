@@ -1,0 +1,49 @@
+<section id="arch-civil-struct-services">
+    <div class="sub-header">
+
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+            <ng-template ngbSlide *ngFor="let img of images; index as i">
+                <div class="carousel-caption" *ngIf="i==0">
+                    <div class="container d-flex flex-column">
+                        <div class="row">
+                            <div class="titleFont">
+                                3D Rendering - Civil &amp; Mechanical
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div class="row sub-text">
+                            To be included : sub text
+                        </div>
+                    </div>
+                </div>
+                <div class="picsum-img-wrapper overlay">
+                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="grey-content-1">
+        <div class="container d-flex flex-column">
+            <div class="row service-header">
+                3D Rendering - Civil &amp; Mechanical
+            </div>
+            <div class="row service-info">
+                BGEDS is well versed to developing the 2D and 3D Modelling in the Infrastructure development, Equipment Layout, Sections,
+                Elevations and as built Components. We are enable to develop the 2D & 3D Modelling on site basis work. We
+                are also familiar in the Pipe line 3D modeling to connect the overall buildings / industries.
+            </div>
+            <div class="card-deck services-cards">
+                <div class="card ">
+                    <div class="card-body corrosion-study-card-1 card-util"></div>
+                </div>
+
+                <div class="card  ">
+                    <div class="card-body corrosion-study-card-2 card-util"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

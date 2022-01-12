@@ -1,0 +1,49 @@
+<section id="mep-building">
+    <div class="sub-header">
+
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+            <ng-template ngbSlide *ngFor="let img of images; index as i">
+                <div class="carousel-caption" *ngIf="i==0">
+                    <div class="container d-flex flex-column">
+                        <div class="row">
+                            <div class="titleFont">
+                                MEP/Building Services
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div class="row sub-text">
+                            To be included : sub text
+                        </div>
+                    </div>
+                </div>
+                <div class="picsum-img-wrapper overlay">
+                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="grey-content-1">
+        <div class="container d-flex flex-column">
+            <div class="row service-header">
+                MEP/Building Services
+            </div>
+            <div class="row service-info">
+                BGEDS MEP (Mechanical, Electrical and Plumbing) engineers offer clients a full complement of services dedicated to efficient
+                system operation. Careful engineering studies ensure that each system balances the initial cost against operating
+                costs to achieve an optimal life-cycle cost-benefit ratio that satisfies client expectations.
+            </div>
+            <div class="card-deck services-cards">
+                <div class="card ">
+                    <div class="card-body corrosion-study-card-1 card-util"></div>
+                </div>
+
+                <div class="card  ">
+                    <div class="card-body corrosion-study-card-2 card-util"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

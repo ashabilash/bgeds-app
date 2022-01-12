@@ -1,0 +1,51 @@
+<section id="arch-civil-struct-services">
+    <div class="sub-header">
+
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+            <ng-template ngbSlide *ngFor="let img of images; index as i">
+                <div class="carousel-caption" *ngIf="i==0">
+                    <div class="container d-flex flex-column">
+                        <div class="row">
+                            <div class="titleFont">
+                                Geotechnical &amp; Foundation Engineering Services
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div class="row sub-text">
+                            To be included : sub text
+                        </div>
+                    </div>
+                </div>
+                <div class="picsum-img-wrapper overlay">
+                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="grey-content-1">
+        <div class="container d-flex flex-column">
+            <div class="row service-header">
+                Geotechnical &amp; Foundation Engineering Services
+            </div>
+            <div class="row service-info">
+                Delighted and with great pride we introduce Geotechnical &amp; Foundation Engineering Services, an integrated engineering
+                services initiative by a team of enthusiastic well experienced geotechnical and civil engineers. We hope
+                to establish a firm and prolonged relationship with our client’s by fully committing ourselves sand by providing
+                excellent service that exceeds the client’s expectation. Our state-of the-art infrastructure empowers us
+                in providing real time quality data acquisition for all civil, onshore and offshore projects.
+            </div>
+            <div class="card-deck services-cards">
+                <div class="card ">
+                    <div class="card-body corrosion-study-card-1 card-util"></div>
+                </div>
+
+                <div class="card  ">
+                    <div class="card-body corrosion-study-card-2 card-util"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -32,6 +32,17 @@ import { CorrosionStudyComponent } from './components/solar-engineering/corrosio
 import { FieldTestingComponent } from './components/solar-engineering/field-testing/field-testing.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AddressComponent } from './components/address/address.component';
+// tslint:disable-next-line:max-line-length
+import { ArchCivilStructServicesComponent } from './components/infrastructural-engineering/arch-civil-struct-services/arch-civil-struct-services.component';
+// tslint:disable-next-line:max-line-length
+import { MechProcessEngineeringComponent } from './components/infrastructural-engineering/mech-process-engineering/mech-process-engineering.component';
+import { MepBuildingComponent } from './components/infrastructural-engineering/mep-building/mep-building.component';
+// tslint:disable-next-line:max-line-length
+import { D3RenderingCivilMechComponent } from './components/infrastructural-engineering/d3-rendering-civil-mech/d3-rendering-civil-mech.component';
+import { GeotechFoundationComponent } from './components/infrastructural-engineering/geotech-foundation/geotech-foundation.component';
+// tslint:disable-next-line:max-line-length
+import { ConstructionManagementComponent } from './components/infrastructural-engineering/construction-management/construction-management.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 const routes: Routes = [
@@ -47,6 +58,13 @@ const routes: Routes = [
   { path: 'solar-engineering/pv-layout', component: PvLayoutComponent },
   { path: 'solar-engineering/corrosion-study', component: CorrosionStudyComponent },
   { path: 'solar-engineering/field-testing', component: FieldTestingComponent },
+  { path: 'infrastructural-engineering/arch-civil-struct-services', component: ArchCivilStructServicesComponent },
+  { path: 'infrastructural-engineering/mech-process-engineering', component: MechProcessEngineeringComponent },
+  { path: 'infrastructural-engineering/d3-rendering-civil-mech', component: D3RenderingCivilMechComponent },
+  { path: 'infrastructural-engineering/mep-building', component: MepBuildingComponent },
+  { path: 'infrastructural-engineering/geotech-foundation', component: GeotechFoundationComponent },
+  { path: 'infrastructural-engineering/construction-management', component: ConstructionManagementComponent },
+  { path: 'gallery', component: GalleryComponent },
   { path: '**',   redirectTo: '/home', pathMatch: 'full' },
   { path: '',   redirectTo: '/home', pathMatch: 'full' }
 ];
@@ -74,7 +92,14 @@ const routes: Routes = [
     PvLayoutComponent,
     CorrosionStudyComponent,
     FieldTestingComponent,
-    AddressComponent
+    AddressComponent,
+    ArchCivilStructServicesComponent,
+    MechProcessEngineeringComponent,
+    MepBuildingComponent,
+    D3RenderingCivilMechComponent,
+    GeotechFoundationComponent,
+    ConstructionManagementComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule, NgbModule, FormsModule, RouterModule.forRoot(routes), ReactiveFormsModule, HttpClientModule

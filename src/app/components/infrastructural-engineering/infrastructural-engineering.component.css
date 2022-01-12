@@ -31,3 +31,81 @@ hr {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
+.services-overview {
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+    background: #efefef;
+    margin-top: 80px;
+}
+
+.services-overview h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.services-cards{
+    margin-top: 30px;
+}
+
+.grading-analysis-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/solar-engineering/grading-analysis/grading-analysis-1.png');
+    background-size: cover;
+}
+
+.racking-structure-design-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.jpg');
+    background-size: cover;
+}
+
+.infrastructure-development-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/solar-engineering/infrastructure-development/slope-map-analysis.png');
+    background-size: cover;
+}
+
+.pv-layout-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/solar-engineering/pv-layout/pv-layout-5.jpg');
+    background-size: cover;
+}
+
+.corrosion-study-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+    background-size: cover;
+}
+
+.card-service-util{
+    height: 250px;
+}
+
+.card-service-util:hover{
+    transform: scale(1.05);
+}
+
+
+.foundation-design-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/solar-engineering/foundation-design/foundation-design-2.jpg');
+    background-size: cover;
+}
+
+.text-card{
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: antiquewhite;
+    margin-top:110px;
+}

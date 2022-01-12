@@ -46,3 +46,7 @@ li:active, li:link{
 .submit-button {
     margin-left:170px;
 }
+
+.company-header {
+    font-size: 36px;
+}

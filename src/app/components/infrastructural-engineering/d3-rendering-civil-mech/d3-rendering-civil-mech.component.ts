@@ -3,11 +3,11 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource  } from '@ng-bootstrap/
 
 
 @Component({
-  selector: 'app-infrastructural-engineering',
-  templateUrl: './infrastructural-engineering.component.html',
-  styleUrls: ['./infrastructural-engineering.component.css']
+  selector: 'app-d3-rendering-civil-mech',
+  templateUrl: './d3-rendering-civil-mech.component.html',
+  styleUrls: ['./d3-rendering-civil-mech.component.css']
 })
-export class InfrastructuralEngineeringComponent implements OnInit {
+export class D3RenderingCivilMechComponent implements OnInit {
 
   constructor() { }
   images = [1, 2, 3].map((n) => `assets/services/solar-engineering/corrosion-study/carousel/corrosion-${n}.jpg`);

@@ -1,0 +1,49 @@
+<section id="arch-civil-struct-services">
+    <div class="sub-header">
+
+        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
+            <ng-template ngbSlide *ngFor="let img of images; index as i">
+                <div class="carousel-caption" *ngIf="i==0">
+                    <div class="container d-flex flex-column">
+                        <div class="row">
+                            <div class="titleFont">
+                                Construction Management
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div class="row sub-text">
+                            To be included : sub text
+                        </div>
+                    </div>
+                </div>
+                <div class="picsum-img-wrapper overlay">
+                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+    </div>
+    <div class="grey-content-1">
+        <div class="container d-flex flex-column">
+            <div class="row service-header">
+                Construction Management
+            </div>
+            <div class="row service-info">
+                We will be able to manage projects from end to end in order that the owner can focus on their core competency. Our established
+                competency in delivering projects on time and within budget ensures that in addition to monitoring schedule
+                we are able to ensure that the design intent in maintained in terms of quality as well.
+            </div>
+            <div class="card-deck services-cards">
+                <div class="card ">
+                    <div class="card-body corrosion-study-card-1 card-util"></div>
+                </div>
+
+                <div class="card  ">
+                    <div class="card-body corrosion-study-card-2 card-util"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
