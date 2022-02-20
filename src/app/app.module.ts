@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -43,6 +44,7 @@ import { GeotechFoundationComponent } from './components/infrastructural-enginee
 // tslint:disable-next-line:max-line-length
 import { ConstructionManagementComponent } from './components/infrastructural-engineering/construction-management/construction-management.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 const routes: Routes = [
@@ -50,7 +52,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesInfoComponent },
   { path: 'whoweare', component: Whoweare2Component },
   { path: 'solar-engineering', component: SolarEngineeringComponent },
-  { path: 'infrastructural-engineering', component: InfrastructuralEngineeringComponent },
+  { path: 'industrial-engineering', component: InfrastructuralEngineeringComponent },
   { path: 'solar-engineering/grading-analysis', component: GradingAnalysisComponent },
   { path: 'solar-engineering/foundation-design', component: FoundationalDesignComponent },
   { path: 'solar-engineering/racking-structure-design', component: RackingStructureDesignComponent },
@@ -58,15 +60,15 @@ const routes: Routes = [
   { path: 'solar-engineering/pv-layout', component: PvLayoutComponent },
   { path: 'solar-engineering/corrosion-study', component: CorrosionStudyComponent },
   { path: 'solar-engineering/field-testing', component: FieldTestingComponent },
-  { path: 'infrastructural-engineering/arch-civil-struct-services', component: ArchCivilStructServicesComponent },
-  { path: 'infrastructural-engineering/mech-process-engineering', component: MechProcessEngineeringComponent },
-  { path: 'infrastructural-engineering/d3-rendering-civil-mech', component: D3RenderingCivilMechComponent },
-  { path: 'infrastructural-engineering/mep-building', component: MepBuildingComponent },
-  { path: 'infrastructural-engineering/geotech-foundation', component: GeotechFoundationComponent },
-  { path: 'infrastructural-engineering/construction-management', component: ConstructionManagementComponent },
+  { path: 'industrial-engineering/arch-civil-struct-services', component: ArchCivilStructServicesComponent },
+  { path: 'industrial-engineering/mech-process-engineering', component: MechProcessEngineeringComponent },
+  { path: 'industrial-engineering/d3-rendering-civil-mech', component: D3RenderingCivilMechComponent },
+  { path: 'industrial-engineering/mep-building', component: MepBuildingComponent },
+  { path: 'industrial-engineering/geotech-foundation', component: GeotechFoundationComponent },
+  { path: 'industrial-engineering/construction-management', component: ConstructionManagementComponent },
   { path: 'gallery', component: GalleryComponent },
-  { path: '**',   redirectTo: '/home', pathMatch: 'full' },
-  { path: '',   redirectTo: '/home', pathMatch: 'full' }
+  { path: '**', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -102,7 +104,14 @@ const routes: Routes = [
     GalleryComponent
   ],
   imports: [
-    BrowserModule, NgbModule, FormsModule, RouterModule.forRoot(routes), ReactiveFormsModule, HttpClientModule
+    BrowserModule,
+    NgbModule,
+    FormsModule,
+    RouterModule.forRoot(routes),
+    ReactiveFormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

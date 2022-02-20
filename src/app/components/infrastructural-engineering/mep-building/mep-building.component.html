@@ -1,6 +1,7 @@
 <section id="mep-building">
+    <!--
     <div class="sub-header">
-
+        
         <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
             <ng-template ngbSlide *ngFor="let img of images; index as i">
                 <div class="carousel-caption" *ngIf="i==0">
@@ -23,7 +24,9 @@
                 </div>
             </ng-template>
         </ngb-carousel>
+        
     </div>
+    -->
     <div class="grey-content-1">
         <div class="container d-flex flex-column">
             <div class="row service-header">
@@ -35,12 +38,30 @@
                 costs to achieve an optimal life-cycle cost-benefit ratio that satisfies client expectations.
             </div>
             <div class="card-deck services-cards">
-                <div class="card ">
-                    <div class="card-body corrosion-study-card-1 card-util"></div>
+                <div class="card mb-4 ">
+                    <div class="card ">
+                        <div class="card-body mep-study-card-1 card-util"></div>
+                    </div>
                 </div>
-
-                <div class="card  ">
-                    <div class="card-body corrosion-study-card-2 card-util"></div>
+                <div class="card mb-4 ">
+                    <div class="card  ">
+                        <div class="card-body mep-study-card-2 card-util"></div>
+                        <div class="card-footer bg-success text-white text-center">Equipment Layout at Coffee making plant @0.000 level</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck services-cards">
+                <div class="card mb-4 ">
+                    <div class="card ">
+                        <div class="card-body mep-study-card-3 card-util"></div>
+                        <div class="card-footer bg-success text-white text-center">Equipment Layout at Coffee making plant @5.500 level</div>
+                    </div>
+                </div>
+                <div class="card mb-4 ">
+                    <div class="card  ">
+                        <div class="card-body mep-study-card-4 card-util"></div>
+                        <div class="card-footer bg-success text-white text-center">Equipment Layout Elevation for Coffee making plant</div>
+                    </div>
                 </div>
             </div>
         </div>

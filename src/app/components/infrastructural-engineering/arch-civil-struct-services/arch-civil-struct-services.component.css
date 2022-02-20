@@ -1,7 +1,7 @@
 .sub-header {
     background: rgb(79,121,9);
     background: linear-gradient(90deg, rgba(79,121,9,1) 0%, rgba(237,242,6,1) 0%, rgba(0,255,205,1) 100%);    
-    height: 500px;
+    height: 200px;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
@@ -10,13 +10,15 @@
 
 .carousel-image {
     width: 100%;
-    height: 500px;
+    height: 200px;
     margin-top: 0px;
 
 }
 
+
+
 .titleFont {
-    font-size: 72px;
+    font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -91,32 +93,103 @@ section .section-title {
 
 .card-util{
     height: 250px;
+    
 }
 
 .card-util:hover{
     transform: scale(1.05);
 }
 
+.mat-tab-header {
+    background-color: red;
+  }
 
-.corrosion-study-card-1 {
+.arch-card-1 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+        url('../../../../assets/services/infra/arch-civil/arch/arch-1.png');
     background-size: cover;
 }
 
-.corrosion-study-card-2 {
+.arch-card-2 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-2.jpg');
+        url('../../../../assets/services/infra/arch-civil/arch/arch-2.png');
     background-size: cover;
 }
 
-.corrosion-study-card-3 {
+.arch-card-3 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-3.jpg');
+        url('../../../../assets/services/infra/arch-civil/arch/arch-3.png');
     background-size: cover;
-
 }
 
+.civil-card-1 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/civil/civil-1.png');
+    background-size: cover;
+}
+.civil-card-2 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/civil/civil-2.png');
+    background-size: cover;
+}
+.struct-card-1 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/struct/struct-1.png');
+    background-size: cover;
+}
+.struct-card-2 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/struct/struct-2.png');
+    background-size: cover;
+}
+.struct-card-3 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/struct/struct-3.png');
+    background-size: cover;
+}
+.struct-card-4 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/struct/struct-4.png');
+    background-size: cover;
+}
+.struct-card-5 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/struct/struct-5.png');
+    background-size: cover;
+}
+
+.utilities-card-1 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/utilities/utilities-1.png');
+    background-size: cover;
+}
+
+.utilities-card-2 {
+    background-image:
+        url('../../../../assets/services/infra/arch-civil/utilities/utilities-2.jpg');
+    background-size: cover;
+}
+/*
+.mat-tab-label {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    font-weight: 700;
+}
+
+.mat-tab-label.mat-tab-label-active {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    font-weight: 700;
+}
+
+.mat-ink-bar {
+    background-color: green;
+}
+*/
 img {
     display: block;
     margin-left: auto;
@@ -125,11 +198,7 @@ img {
   }
 
 
-.corrosion-study-card-4 {
-    background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-4.png');
-    background-size: cover;
-}
+
 
 
 

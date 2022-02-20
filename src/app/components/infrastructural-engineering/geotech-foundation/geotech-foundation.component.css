@@ -98,24 +98,61 @@ section .section-title {
 }
 
 
-.corrosion-study-card-1 {
+.geotech-study-card-1 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-1.png');
     background-size: cover;
 }
 
-.corrosion-study-card-2 {
+.geotech-study-card-2 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-2.jpg');
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-2.png');
     background-size: cover;
 }
 
-.corrosion-study-card-3 {
+.geotech-study-card-3 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-3.jpg');
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-3.png');
     background-size: cover;
-
 }
+
+.geotech-study-card-4 {
+    background-image:
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-4.png');
+    background-size: cover;
+}
+
+.geotech-study-card-5 {
+    background-image:
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-5.png');
+    background-size: cover;
+}
+
+.geotech-study-card-6 {
+    background-image:
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-6.png');
+    background-size: cover;
+}
+
+.geotech-study-card-7 {
+    background-image:
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-7.png');
+    background-size: cover;
+}
+
+.geotech-study-card-8 {
+    background-image:
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-8.png');
+    background-size: cover;
+}
+
+.geotech-study-card-9 {
+    background-image:
+        url('../../../../assets/services/infra/geotech-foundation/geotech-foundation-9.png');
+    background-size: cover;
+}
+
+
 
 img {
     display: block;
@@ -125,11 +162,6 @@ img {
   }
 
 
-.corrosion-study-card-4 {
-    background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-4.png');
-    background-size: cover;
-}
 
 
 

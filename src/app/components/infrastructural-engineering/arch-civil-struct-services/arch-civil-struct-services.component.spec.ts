@@ -6,6 +6,7 @@ describe('ArchCivilStructServicesComponent', () => {
   let component: ArchCivilStructServicesComponent;
   let fixture: ComponentFixture<ArchCivilStructServicesComponent>;
 
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ ArchCivilStructServicesComponent ]

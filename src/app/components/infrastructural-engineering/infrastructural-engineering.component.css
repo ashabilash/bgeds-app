@@ -5,7 +5,15 @@ background: linear-gradient(90deg, rgba(79,121,9,1) 0%, rgba(242,148,6,1) 0%, rg
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top:120px;
+    padding-top:75px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    padding-top: 0px;
+
 }
 
 .titleFont {
@@ -31,7 +39,18 @@ hr {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 
+  section .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
 .services-overview {
     background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
     background: #efefef;
@@ -49,38 +68,45 @@ hr {
     margin-top: 30px;
 }
 
-.grading-analysis-card {
+.arch-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/grading-analysis/grading-analysis-1.png');
+        url('../../../assets/services/infra/arch-civil/assessment/assessment-1.png');
     background-size: cover;
 }
 
-.racking-structure-design-card {
+.mech-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.jpg');
+        url('../../../assets/services/infra/mech-master/mech-master-3.png');
     background-size: cover;
 }
 
-.infrastructure-development-card {
+.mep-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/infrastructure-development/slope-map-analysis.png');
+        url('../../../assets/services/infra/mep/mep-2.png');
     background-size: cover;
 }
 
-.pv-layout-card {
+.d3-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/pv-layout/pv-layout-5.jpg');
+        url('../../../assets/services/infra/d3-rendering/d3-rendering-1.png');
     background-size: cover;
 }
 
-.corrosion-study-card {
+.geotech-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+        url('../../../assets/services/infra/geotech-foundation/geotech-foundation-1.png');
+    background-size: cover;
+}
+
+.construction-card {
+    background-image:
+        linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
+        url('../../../assets/services/infra/construction-management/construction-1.png');
     background-size: cover;
 }
 
@@ -109,3 +135,57 @@ hr {
     color: antiquewhite;
     margin-top:110px;
 }
+
+@media (max-width:767px){
+	#services-overview h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    }
+
+    .services-cards{
+        margin-top: 15px;
+    }
+    .card-service-util{
+        height: 200px;
+    }
+
+    .text-card{
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+        color: antiquewhite;
+        margin-top:70px;
+    }
+
+    .sub-header {
+        background: rgb(79,121,9);
+        background: linear-gradient(90deg, rgba(79,121,9,1) 0%, rgba(237,242,6,1) 0%, rgba(0,255,205,1) 100%);    
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top:60px;
+    }
+
+    .carousel-image {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .titleFont {
+        font-size: 36px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .sub-text {
+        font-size: 20px;
+        padding-left:10px;
+    
+    }
+}
+

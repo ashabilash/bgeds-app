@@ -98,24 +98,25 @@ section .section-title {
 }
 
 
-.corrosion-study-card-1 {
+.mech-study-card-1 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+        url('../../../../assets/services/infra/mech-master/mech-master-1.png');
     background-size: cover;
 }
 
-.corrosion-study-card-2 {
+.mech-study-card-2 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-2.jpg');
+        url('../../../../assets/services/infra/mech-master/mech-master-2.png');
     background-size: cover;
 }
 
-.corrosion-study-card-3 {
+.mech-study-card-3 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-3.jpg');
+        url('../../../../assets/services/infra/mech-master/mech-master-3.png');
     background-size: cover;
-
 }
+
+
 
 img {
     display: block;
@@ -125,11 +126,6 @@ img {
   }
 
 
-.corrosion-study-card-4 {
-    background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-4.png');
-    background-size: cover;
-}
 
 
 

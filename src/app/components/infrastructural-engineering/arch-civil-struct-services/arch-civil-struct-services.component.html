@@ -1,4 +1,5 @@
 <section id="arch-civil-struct-services">
+    <!--
     <div class="sub-header">
 
         <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
@@ -10,12 +11,6 @@
                                 Architectural, Civil &amp; Structural Engineering Services
                             </div>
                         </div>
-                        <div class="row">
-                            <hr/>
-                        </div>
-                        <div class="row sub-text">
-                            To be included : sub text
-                        </div>
                     </div>
                 </div>
                 <div class="picsum-img-wrapper overlay">
@@ -24,10 +19,11 @@
             </ng-template>
         </ngb-carousel>
     </div>
+    -->
     <div class="grey-content-1">
         <div class="container d-flex flex-column">
             <div class="row service-header">
-                    Architectural, Civil &amp; Structural Engineering Services
+                Architectural, Civil &amp; Structural Engineering Services
             </div>
             <div class="row service-info">
                 BGEDS provides professional planning, design, construction management, and budgeting services for capital construction projects
@@ -38,15 +34,119 @@
                 sway &amp; seismic by our expert team. Which in term would reduce the quantity of steel required proving
                 to be economical.
             </div>
-            <div class="card-deck services-cards">
-                <div class="card ">
-                    <div class="card-body corrosion-study-card-1 card-util"></div>
-                </div>
 
-                <div class="card  ">
-                    <div class="card-body corrosion-study-card-2 card-util"></div>
-                </div>
-            </div>
+
+        </div>
+    </div>
+    <div class="white-content">
+
+        <div class="container d-flex flex-column">
+            <mat-tab-group mat-stretch-tabs [backgroundColor]="'primary'">
+                <mat-tab label="Architectural">
+                    <div class="card-deck services-cards">
+                        <div class="card mb-4">
+                            <div class="card-body arch-card-1 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Hygiene Station Elevation </div>
+                        </div>
+
+                        <div class="card  mb-4">
+                            <div class="card-body arch-card-2 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Hygiene Station plan </div>
+                        </div>
+                        <div class="card  mb-4">
+                            <div class="card-body arch-card-3 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Hygiene Station Section </div>
+                        </div>
+                    </div>
+                </mat-tab>
+                <mat-tab label="Civil Concrete works">
+                    <div class="card-deck services-cards">
+                        <div class="card mb-4">
+                            <div class="card-body civil-card-1 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Detailed engineering design for Civil &amp; structural ETP units</div>
+                        </div>
+
+                        <div class="card  mb-4">
+                            <div class="card-body civil-card-2 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Design &amp; Engineering services for Hygiene station (10m*8m), HUL Hosur </div>
+                        </div>
+
+                    </div>
+                </mat-tab>
+                <mat-tab label="Structural Steel">
+                    <div class="card-deck services-cards">
+                        <div class="card mb-4">
+                            <div class="card-body struct-card-1 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Design &amp; Engineering services for Packing Hall (15m*45m) Extension, Hosur</div>
+                        </div>
+
+                        <div class="card  mb-4">
+                            <div class="card-body struct-card-2 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Warehouse building at Homecare Liquids, HUL Pondicherry </div>
+                        </div>
+
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div class="card mb-4">
+                            <div class="card-body struct-card-3 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Design &amp; Engineering services for RM Storage (25m*20m) Expansion, HUL Hosur</div>
+                        </div>
+
+                        <div class="card  mb-4">
+                            <div class="card-body struct-card-4 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center"> Stability &amp; Strengthening measures for G+6 floor TSF high bay building, HUL Pondicherry</div>
+                        </div>
+                        <div class="card  mb-4">
+                            <div class="card-body struct-card-5 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center"> </div>
+                        </div>
+                    </div>
+
+                </mat-tab>
+                <mat-tab label="Utilities Infrastructural">
+                    <div class="card-deck services-cards">
+                        <div class="card mb-4">
+                            <div class="card-body utilities-card-1 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center">Aeration Tank</div>
+                        </div>
+
+                        <div class="card  mb-4">
+                            <div class="card-body utilities-card-2 card-util"></div>
+                            <div class="card-footer bg-success text-white text-center"> Aeration Tank</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let utility of utilitiesRow1" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + utility + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> Digestor Feed Tank</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let utility of utilitiesRow2" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + utility + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> Digestor Tank</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let utility of utilitiesRow3; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + utility + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{utilitiesRow3Content[i]}}</div>
+                        </div>
+                    </div>
+                </mat-tab>
+                <mat-tab label="Assessment &amp; Certification"> 
+                        <div class="card-deck services-cards">
+                                <div *ngFor="let utility of assessmentRow1; let i = index" class="card mb-4">
+        
+                                    <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + utility + ')'}"></div>
+                                    <div class="card-footer bg-success text-white text-center"> {{assessmentRow1Content[i]}}</div>
+                                </div>
+                            </div>
+                 </mat-tab>
+            </mat-tab-group>
         </div>
     </div>
 
