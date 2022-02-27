@@ -1,0 +1,114 @@
+.mat-raised-button {
+    margin-top: 15px;
+    width: 240px; 
+    text-align: left;
+        
+}
+
+.container {
+    max-width: 100%;
+}
+
+button {
+    overflow-x: hidden !important;
+    white-space: pre-wrap !important;
+    line-height: 1.5;
+}
+
+
+
+
+.project {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family:  Verdana;
+    padding-top: 5px;
+}
+
+.gallery-font {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: 500px;
+    margin-left: 100px;
+    color: darkgreen;
+}
+
+.gallery-header {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-weight: bold;
+    text-align: center;
+    color: darkgreen;
+}
+
+.gallery-navigator{
+    background-color: lightseagreen;
+    width: 310px;
+    padding-left: -100px;
+    padding-bottom: 50px;
+    border: 1px solid black !important;
+    border-radius: 50px;
+}
+
+.btn-current {
+    border-color: black;
+    border-radius: 5px;
+    width: 240px; 
+    margin-top: 15px;
+    background-color: rgb(0, 255, 200);
+    color: black;
+    text-align: left;
+}
+
+.btn-gallery {
+    border-color: black;
+    border-radius: 5px;
+    width: 240px; 
+    margin-top: 15px;
+    background-color: darkcyan;
+    color: white;
+    text-align: left;
+}
+
+.btn-gallery:hover {
+    border-color: white;
+    border-radius: 5px;
+    width: 240px; 
+    margin-top: 15px;
+    background-color: darkcyan;
+    color: white;
+    transform: scale(1.05);
+}
+
+.space-class{
+    margin-top: 80px;
+}
+
+.services-cards{
+    margin-top: 20px;
+}
+
+.curr-gallery {
+    margin-left: 50px;
+}
+
+
+
+.card{
+    width: 280px;
+}
+
+.card-util{
+    height: 180px;
+    
+}
+
+.card:hover{
+    transform: scale(1.25);
+}
+
+.row{
+    margin-left:30px;
+    margin-right: 0px;
+}

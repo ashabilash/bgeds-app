@@ -1,25 +1,5 @@
 <section id="arch-civil-struct-services">
-    <!--
-    <div class="sub-header">
 
-        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
-            <ng-template ngbSlide *ngFor="let img of images; index as i">
-                <div class="carousel-caption" *ngIf="i==0">
-                    <div class="container d-flex flex-column">
-                        <div class="row">
-                            <div class="titleFont">
-                                Architectural, Civil &amp; Structural Engineering Services
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="picsum-img-wrapper overlay">
-                    <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
-                </div>
-            </ng-template>
-        </ngb-carousel>
-    </div>
-    -->
     <div class="grey-content-1">
         <div class="container d-flex flex-column">
             <div class="row service-header">
@@ -137,15 +117,15 @@
                         </div>
                     </div>
                 </mat-tab>
-                <mat-tab label="Assessment &amp; Certification"> 
-                        <div class="card-deck services-cards">
-                                <div *ngFor="let utility of assessmentRow1; let i = index" class="card mb-4">
-        
-                                    <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + utility + ')'}"></div>
-                                    <div class="card-footer bg-success text-white text-center"> {{assessmentRow1Content[i]}}</div>
-                                </div>
-                            </div>
-                 </mat-tab>
+                <mat-tab label="Assessment &amp; Certification">
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let utility of assessmentRow1; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + utility + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{assessmentRow1Content[i]}}</div>
+                        </div>
+                    </div>
+                </mat-tab>
             </mat-tab-group>
         </div>
     </div>

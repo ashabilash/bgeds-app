@@ -17,7 +17,7 @@ li:active, li:link{
 }
 
 .custom-text {
-    color: white;
+    color: whitesmoke;
     font-size: 20px;
     font-weight: 400;
 }
@@ -50,3 +50,7 @@ li:active, li:link{
 .company-header {
     font-size: 36px;
 }
+
+/*
+.navbar { height: 50px; color: blue; border-bottom: chocolate; border-bottom-width: 20px;}
+*/

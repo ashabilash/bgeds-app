@@ -4,6 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatTabsModule } from '@angular/material/tabs';
+import {MatButtonModule} from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -45,6 +46,19 @@ import { GeotechFoundationComponent } from './components/infrastructural-enginee
 import { ConstructionManagementComponent } from './components/infrastructural-engineering/construction-management/construction-management.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GalleryOneComponent } from './components/gallery/gallery-one/gallery-one.component';
+import { GalleryTwoComponent } from './components/gallery/gallery-two/gallery-two.component';
+import { GalleryThreeComponent } from './components/gallery/gallery-three/gallery-three.component';
+import { GalleryFourComponent } from './components/gallery/gallery-four/gallery-four.component';
+import { GalleryFiveComponent } from './components/gallery/gallery-five/gallery-five.component';
+import { GallerySixComponent } from './components/gallery/gallery-six/gallery-six.component';
+import { GallerySevenComponent } from './components/gallery/gallery-seven/gallery-seven.component';
+import { GalleryEightComponent } from './components/gallery/gallery-eight/gallery-eight.component';
+import { GalleryNineComponent } from './components/gallery/gallery-nine/gallery-nine.component';
+import { GalleryTenComponent } from './components/gallery/gallery-ten/gallery-ten.component';
+import { GalleryElevenComponent } from './components/gallery/gallery-eleven/gallery-eleven.component';
+import { GalleryTwelveComponent } from './components/gallery/gallery-twelve/gallery-twelve.component';
+
 
 
 const routes: Routes = [
@@ -66,7 +80,19 @@ const routes: Routes = [
   { path: 'industrial-engineering/mep-building', component: MepBuildingComponent },
   { path: 'industrial-engineering/geotech-foundation', component: GeotechFoundationComponent },
   { path: 'industrial-engineering/construction-management', component: ConstructionManagementComponent },
-  { path: 'gallery', component: GalleryComponent },
+  { path: 'gallery', component: GalleryOneComponent },
+  { path: 'gallery/1', component: GalleryOneComponent },
+  { path: 'gallery/2', component: GalleryTwoComponent },
+  { path: 'gallery/3', component: GalleryThreeComponent },
+  { path: 'gallery/4', component: GalleryFourComponent },
+  { path: 'gallery/5', component: GalleryFiveComponent },
+  { path: 'gallery/6', component: GallerySixComponent },
+  { path: 'gallery/7', component: GallerySevenComponent },
+  { path: 'gallery/8', component: GalleryEightComponent },
+  { path: 'gallery/9', component: GalleryNineComponent },
+  { path: 'gallery/10', component: GalleryTenComponent },
+  { path: 'gallery/11', component: GalleryElevenComponent },
+  { path: 'gallery/12', component: GalleryTwelveComponent },
   { path: '**', redirectTo: '/home', pathMatch: 'full' },
   { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
@@ -101,7 +127,19 @@ const routes: Routes = [
     D3RenderingCivilMechComponent,
     GeotechFoundationComponent,
     ConstructionManagementComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryOneComponent,
+    GalleryTwoComponent,
+    GalleryThreeComponent,
+    GalleryFourComponent,
+    GalleryFiveComponent,
+    GallerySixComponent,
+    GallerySevenComponent,
+    GalleryEightComponent,
+    GalleryNineComponent,
+    GalleryTenComponent,
+    GalleryElevenComponent,
+    GalleryTwelveComponent,
   ],
   imports: [
     BrowserModule,
@@ -111,7 +149,8 @@ const routes: Routes = [
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

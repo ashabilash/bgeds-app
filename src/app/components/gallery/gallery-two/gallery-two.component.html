@@ -1,0 +1,133 @@
+<section id="gallery">
+
+    <div class="container space-class">
+        <!--
+                <div class="gallery-font">
+                        Gallery
+                    </div>
+                -->
+        <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <div class="gallery-navigator">
+
+                    <div class="project"> Projects </div>
+
+
+                    <div class="row">
+                        <a href="/gallery/1">
+                            <button class="btn btn-gallery">1. Coffee plant, HUL, Hosur</button>
+                        </a>
+                    </div>
+                    <div class="row">
+
+                        <button class="btn btn-current">2. ETP, HUL, Hosur</button>
+
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/3">
+                            <button class="btn btn-gallery">3. Hygiene station, HUL, Hosur</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/4">
+                            <button class="btn btn-gallery">4. RM Storage, HUL, Hosur</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/5">
+                            <button class="btn btn-gallery">5.Sakthi Tea Plant, Hosur</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/6">
+                            <button class="btn btn-gallery">6. Master Layout Herbal Oil Plant, Masons Limited, Kerala</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/7">
+                            <button class="btn btn-gallery">7. Master Plan Development, TALC, VPJ &amp; Colors, HL, Silvasa </button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/8">
+                            <button class="btn btn-gallery">8. Equipment Layout, NMB, HUL, Pondy</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/9">
+                            <button class="btn btn-gallery">9. Stability Check for TALC due to blender extension, HUL, Pondy</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/10">
+                            <button class="btn btn-gallery">10. Stability Check NSD, HUL Pondy</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="/gallery/11">
+                            <button class="btn btn-gallery">11. Stability Check TSF, HUL, Pondy</button>
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="/gallery/12">
+                            <button class="btn btn-gallery">12. Walk Way Liquid Plant, HUL, Pondy</button>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="p-2 bd-highlight">
+                <div class="gallery-header">
+                    ETP, HUL, Hosur
+                </div>
+                <div class="curr-gallery">
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let item of itemsRow1; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + item + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{itemsRow1Content[i]}}</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let item of itemsRow2; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + item + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{itemsRow2Content[i]}}</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let item of itemsRow3; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + item + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{itemsRow3Content[i]}}</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let item of itemsRow4; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + item + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{itemsRow4Content[i]}}</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let item of itemsRow5; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + item + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{itemsRow5Content[i]}}</div>
+                        </div>
+                    </div>
+                    <div class="card-deck services-cards">
+                        <div *ngFor="let item of itemsRow6; let i = index" class="card mb-4">
+
+                            <div class="card-body card-util" [ngStyle]="{backgroundImage:'url(' + item + ')'}"></div>
+                            <div class="card-footer bg-success text-white text-center"> {{itemsRow6Content[i]}}</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
