@@ -10,7 +10,7 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource  } from '@ng-bootstrap/
 export class InfrastructuralEngineeringComponent implements OnInit {
 
   constructor() { }
-  images = [1, 2, 3].map((n) => `assets/services/solar-engineering/corrosion-study/carousel/corrosion-${n}.jpg`);
+  images = [1, 2, 3].map((n) => `assets/services/infra/main-carousel/carousel-${n}.png`);
 
   paused = false;
   unpauseOnArrow = false;

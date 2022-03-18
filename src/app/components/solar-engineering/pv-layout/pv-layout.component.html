@@ -1,33 +1,9 @@
 <section id="pv-layout">
-    <div class="sub-header">
 
-        <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
-                <ng-template ngbSlide *ngFor="let img of images; index as i">
-                    <div class="carousel-caption" *ngIf="i==0">
-                        <div class="container d-flex flex-column">
-                            <div class="row">
-                                <div class="titleFont">
-                                        PV Layout
-                                </div>
-                            </div>
-                            <div class="row">
-                                <hr/>
-                            </div>
-                            <div class="row sub-text">
-                                    Independent PV layout Creation and Design
-                            </div>
-                        </div>
-                    </div>
-                    <div class="picsum-img-wrapper overlay">
-                        <img [src]="img" class="carousel-image d-block" alt="Solar image {{i + 1}} description">
-                    </div>
-                </ng-template>
-            </ngb-carousel>
-    </div>
     <div class="grey-content-1">
         <div class="container d-flex flex-column">
             <div class="row service-header">
-                PV Layout Overview
+                PV Layout 
             </div>
             <div class="row service-info">
                     BGEDS developed lots of PV Layout for solar power plant for the Tracker, Fixed and Rooftop. The configurations of 1P, 2P, 4P series structure are commonly developed with full table and partial table. In Tracker, various types of classification are available listed by the number of modules 2PX26, 2PX27, 2PX28, 2PX29, by category of Exterior &amp; Interior and by Post Spacing (Full table and Partial table).

@@ -12,7 +12,8 @@
     width: 100%;
     height: 500px;
     margin-top: 0px;
-
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
 }
 
 .titleFont {
@@ -85,14 +86,14 @@ section .section-title {
 .infrastructure-development-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/infrastructure-development/slope-map-analysis.png');
+        url('../../../assets/services/solar-engineering/infrastructure-development/infrastructure-development-4.jpg');
     background-size: cover;
 }
 
 .pv-layout-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/pv-layout/pv-layout-5.jpg');
+        url('../../../assets/services/solar-engineering/pv-layout/pv-layout-4.png');
     background-size: cover;
 }
 

@@ -13,7 +13,7 @@ export class SolarEngineeringComponent implements OnInit {
 
   responsiveOptions;
 
-  images = [1, 2, 3, 4].map((n) => `assets/services/solar-engineering/main-carousel/solar-engineering-${n}.jpg`);
+  images = [1, 2, 3, 4].map((n) => `assets/services/solar-engineering/main-carousel/solar-engineering-${n}.png`);
 
   paused = false;
   unpauseOnArrow = false;

@@ -2,7 +2,7 @@
     <div class="sub-header">
         <ngb-carousel #carousel interval="1000" [pauseOnHover]="pauseOnHover" (slide)="onSlide($event)">
             <ng-template ngbSlide *ngFor="let img of images; index as i">
-                <div class="carousel-caption" *ngIf="i==0">
+                <div class="carousel-caption" >
                     <div class="container d-flex flex-column">
                         <div class="row">
                             <div class="titleFont">
