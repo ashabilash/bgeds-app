@@ -93,6 +93,14 @@ section .section-title {
     margin-top:110px;
 }
 
+.text-card:hover{
+    color: yellow;
+}
+
+a:hover {
+    color:orangered;
+}
+
 @media (max-width:767px){
 	#services-overview h5 {
     padding-left: 0;

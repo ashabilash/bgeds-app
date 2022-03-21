@@ -13,8 +13,8 @@ background: linear-gradient(90deg, rgba(79,121,9,1) 0%, rgba(242,148,6,1) 0%, rg
     height: 500px;
     margin-top: 0px;
     padding-top: 0px;
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(2px);
+    -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+-webkit-filter: brightness(60%);
 }
 
 .titleFont {
@@ -135,6 +135,14 @@ img {
     font-size: 24px;
     color: antiquewhite;
     margin-top:110px;
+}
+
+.text-card:hover{
+    color: yellow;
+}
+
+a:hover {
+    color:orangered;
 }
 
 @media (max-width:767px){

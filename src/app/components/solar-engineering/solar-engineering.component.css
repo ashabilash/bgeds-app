@@ -12,8 +12,8 @@
     width: 100%;
     height: 500px;
     margin-top: 0px;
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    filter: blur(5px);
+    -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+-webkit-filter: brightness(60%); 
 }
 
 .titleFont {
@@ -128,6 +128,14 @@ section .section-title {
     font-size: 24px;
     color: antiquewhite;
     margin-top:110px;
+}
+
+.text-card:hover{
+    color: yellow;
+}
+
+a:hover {
+    color:orangered;
 }
 
 @media (max-width:767px){

@@ -1,3 +1,46 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title ">Contact Us</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="container">
+            <div class="row">
+                <div class="form-control">
+                    <form [formGroup]="FormData" (ngSubmit)="submitForm()">
+                        <div class="form-group form-element">
+                            <label for="Email">Email </label>
+                            <input type="email" class="form-control" name="Email" aria-describedby="emailHelp" placeholder="Enter email" formControlName="EmailID">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group form-element">
+                            <label for="fullname">Full Name </label>
+                            <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="FullName" required>
+                        </div>
+                        <div class="form-group form-element">
+                                <label for="mobilenumber">Mobile Number</label>
+                                <input type="text" class="form-control" name="mobilenumber" placeholder="xxxxxxxxxx" formControlName="MobileNumber">
+                        </div>
+                        <div class="form-group form-element">
+                                <label for="company">Company</label>
+                                <input type="text" class="form-control" name="company" placeholder="Company name" formControlName="Company">
+                        </div>
+                        <div class="form-group form-element">
+                            <label for="comment">Comment *</label>
+                            <textarea class="form-control" formControlName="Comment" name="Comment">
+                            </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-button" [disabled]="!FormData.valid">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</ng-template>
+
 <section id="address">
     <div class="address">
         <div class="container address-space">
@@ -32,18 +75,18 @@
                 </div>
                 <div class="col-md-4 col-xl-3">
                     <h4>Quick Links</h4>
-                    <ul class="nav-list">
+                    <ul class="nav-list custom-text">
                         <li>
-                            <a href="/home">Home</a>
+                            <a class="custom-text" href="/home">Home</a>
                         </li>
                         <li>
-                            <a href="/solar-engineering">Solar Engineering</a>
+                            <a class="custom-text" href="/solar-engineering">Solar Engineering</a>
                         </li>
                         <li>
-                            <a href="/industrial-engineering">Industrial Engineering</a>
+                            <a class="custom-text" href="/industrial-engineering">Industrial Engineering</a>
                         </li>
-                        <li>
-                            <a href="#">Enquiry</a>
+                        <li >
+                            <a (click)="openVerticallyCentered(content)">Enquiry</a>
                         </li>
 
                     </ul>
