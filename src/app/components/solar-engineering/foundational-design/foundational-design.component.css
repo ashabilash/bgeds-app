@@ -128,8 +128,25 @@ img {
 
 .foundation-design-card-5 {
     background-image:
-        url('../../../../assets/services/solar-engineering/foundation-design/foundation-design-5.jpg');
-    background-size: contain;
+        url('../../../../assets/services/solar-engineering/foundation-design/foundation-design-5.png');
+    background-size: cover;
+}
+
+.foundation-design-card-6 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/foundation-design/foundation-design-6.png');
+    background-size: cover;
+}
+
+.foundation-design-card-7 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/foundation-design/foundation-design-7.png');
+    background-size: cover;
+}
+.foundation-design-card-8 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/foundation-design/foundation-design-8.png');
+    background-size: cover;
 }
 
 

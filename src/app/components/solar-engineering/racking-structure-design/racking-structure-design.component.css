@@ -102,23 +102,28 @@ section .section-title {
 
 .racking-structure-design-card-1 {
     background-image:
-        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.jpg');
+        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.png');
     background-size: cover;
 }
 
 .racking-structure-design-card-2 {
     background-image:
-        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-2.jpg');
+        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-2.png');
     background-size: cover;
 }
+
 
 .racking-structure-design-card-3 {
     background-image:
-        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-3.jpg');
+        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-3.png');
     background-size: cover;
 }
 
-
+.racking-structure-design-card-4 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-4.png');
+    background-size: cover;
+}
 
 @media (max-width:767px){
 	#services-overview h5 {

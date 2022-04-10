@@ -79,7 +79,7 @@ section .section-title {
 .racking-structure-design-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.jpg');
+        url('../../../assets/services/solar-engineering/racking-structure-design/racking-structure-design-1.png');
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@ section .section-title {
 .corrosion-study-card {
     background-image:
         linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), 
-        url('../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+        url('../../../assets/services/solar-engineering/corrosion-study/corrosion-study-2.png');
     background-size: cover;
 }
 

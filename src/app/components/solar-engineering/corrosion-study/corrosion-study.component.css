@@ -100,21 +100,32 @@ section .section-title {
 
 .corrosion-study-card-1 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.jpg');
+        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-1.png');
     background-size: cover;
 }
 
 .corrosion-study-card-2 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-2.jpg');
+        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-2.png');
     background-size: cover;
 }
 
 .corrosion-study-card-3 {
     background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-3.jpg');
+        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-3.png');
     background-size: cover;
 
+}
+.corrosion-study-card-4 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-4.png');
+    background-size: cover;
+}
+
+.corrosion-study-card-5 {
+    background-image:
+        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-5.png');
+    background-size: cover;
 }
 
 img {
@@ -125,11 +136,7 @@ img {
   }
 
 
-.corrosion-study-card-4 {
-    background-image:
-        url('../../../../assets/services/solar-engineering/corrosion-study/corrosion-study-4.png');
-    background-size: cover;
-}
+
 
 
 

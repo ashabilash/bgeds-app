@@ -3,7 +3,7 @@
 }
 
 .icon-bar:hover{
-    background-color: blue;
+    background-color: rgb(18, 143, 95);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -11,15 +11,14 @@
     margin-top: 0;
  }
 
-
-li:active, li:link{
-    background-color: blue;
+ .nav-item:hover{
+    background-color: rgb(18, 143, 95);
 }
 
 .custom-text {
-    color: whitesmoke;
-    font-size: 20px;
-    font-weight: 400;
+    color: whitesmoke !important;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .dropdown-submenu {
@@ -50,10 +49,25 @@ li:active, li:link{
 .company-header {
     font-size: 36px;
     font-family: 'Allerta Stencil';
-    
+    color: chocolate;
+    font-weight: 500;
     
 }
 
-/*
-.navbar { height: 50px; color: blue; border-bottom: chocolate; border-bottom-width: 20px;}
-*/
+.company-header:hover{
+    
+    color: white;
+    transform: scale(1.10);
+}
+
+.navbar-brand:hover{
+    background-color: rgb(183, 233, 214);
+}
+.navbar { 
+     border-bottom: 5px solid rgb(18, 143, 95); 
+    background-color: rgb(32, 218, 147);    
+}
+
+.button {
+    background-color: transparent;
+}

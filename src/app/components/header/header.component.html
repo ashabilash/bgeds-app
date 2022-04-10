@@ -41,11 +41,10 @@
 
 </ng-template>
 
-<nav id="navbar-header" class=" navbar navbar-expand-lg navbar-dark bg-primary fixed-top ">
-    <a class="navbar-brand mr-md-2-mr-0" href="#">
-        <div class="company-header">
-            BGEDS
-        </div>
+<nav id="navbar-header" class=" navbar navbar-expand-lg   fixed-top ">
+    <a class="navbar-brand mr-md-2-mr-0 px-4" href="#">
+       
+        <img src="assets/logo/bgeds-title.png" class="align-middle logo"  />
         <span class="ml-2 d-xl-none d-lg-none d-md-none d-inline"></span>
     </a>
 
@@ -55,14 +54,16 @@
 
     <div class="navbar-collapse collapse" id="collapsibleNavbar" [ngbCollapse]="isMenuCollapsed">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link custom-text" href="#" (click)="isMenuCollapsed = true">HOME
+            <li class="nav-item active px-3">
+                <a  class="custom-text" href="#" (click)="isMenuCollapsed = true" >
+                            HOME
+                    
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
 
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle custom-text" routerLink="/solar-engineering" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            <li class="nav-item dropdown active px-3">
+                <a class="dropdown-toggle custom-text" routerLink="/solar-engineering" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     SOLAR ENGINEERING
                 </a>
@@ -77,8 +78,8 @@
                 </div>
             </li>
 
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle custom-text" routerLink="/industrial-engineering" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            <li class="nav-item dropdown active px-3">
+                <a class="dropdown-toggle custom-text" routerLink="/industrial-engineering" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     INDUSTRIAL ENGINEERING
                 </a>
@@ -91,14 +92,14 @@
                     <a class="dropdown-item" href="/industrial-engineering/construction-management" (click)="isMenuCollapsed = true">Construction Management</a>
                 </div>
             </li>
-            <li class="nav-item active">
-                    <a class="nav-link custom-text" routerLink="/gallery" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            <li class="nav-item active px-3">
+                    <a class="custom-text" routerLink="/gallery" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         GALLERY
                     </a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link custom-text" (click)="openVerticallyCentered(content)">ENQUIRY
+            <li class="nav-item active px-3">
+                <a class="custom-text" (click)="openVerticallyCentered(content)" style="cursor: pointer;">ENQUIRY
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
@@ -106,13 +107,13 @@
         </ul>
         <ul class="navbar-nav nav-flex-icons ml-auto ">
 
-            <li class="nav-item">
+            <li class="nav-item px-1">
                 <a class="icon-bar nav-link" href="mailto:sales@bgedsconsultant.com?Subject=" target="_blank">
                     <i class="fa fa-lg fa-envelope align-center align-middle" style="color: white"></i>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link icon-bar" href="#linkedin">
+            <li class="nav-item px-1">
+                <a class="icon-bar nav-link" href="#linkedin">
                     <i class="fa fa-lg fa-linkedin align-center align-middle" style="color: white"></i>
                 </a>
             </li>
