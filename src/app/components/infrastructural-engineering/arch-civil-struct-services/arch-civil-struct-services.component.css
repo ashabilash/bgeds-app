@@ -106,69 +106,23 @@ section .section-title {
 
 .arch-card-1 {
     background-image:
-        url('../../../../assets/services/infra/arch-civil/arch/arch-1.png');
+        url('../../../../assets/services/infra/arch-civil/arch-1.png');
     background-size: cover;
 }
 
 .arch-card-2 {
     background-image:
-        url('../../../../assets/services/infra/arch-civil/arch/arch-2.png');
+        url('../../../../assets/services/infra/arch-civil/arch-2.png');
     background-size: cover;
 }
 
 .arch-card-3 {
     background-image:
-        url('../../../../assets/services/infra/arch-civil/arch/arch-3.png');
+        url('../../../../assets/services/infra/arch-civil/arch-3.png');
     background-size: cover;
 }
 
-.civil-card-1 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/civil/civil-1.png');
-    background-size: cover;
-}
-.civil-card-2 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/civil/civil-2.png');
-    background-size: cover;
-}
-.struct-card-1 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/struct/struct-1.png');
-    background-size: cover;
-}
-.struct-card-2 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/struct/struct-2.png');
-    background-size: cover;
-}
-.struct-card-3 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/struct/struct-3.png');
-    background-size: cover;
-}
-.struct-card-4 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/struct/struct-4.png');
-    background-size: cover;
-}
-.struct-card-5 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/struct/struct-5.png');
-    background-size: cover;
-}
 
-.utilities-card-1 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/utilities/utilities-1.png');
-    background-size: cover;
-}
-
-.utilities-card-2 {
-    background-image:
-        url('../../../../assets/services/infra/arch-civil/utilities/utilities-2.jpg');
-    background-size: cover;
-}
 /*
 .mat-tab-label {
     min-width: 25px !important;

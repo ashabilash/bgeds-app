@@ -116,6 +116,21 @@ section .section-title {
     background-size: cover;
 }
 
+.mech-study-card-4 {
+    background-image:
+        url('../../../../assets/services/infra/mech-master/mech-master-4.png');
+    background-size: cover;
+}
+.mech-study-card-5 {
+    background-image:
+        url('../../../../assets/services/infra/mech-master/mech-master-5.png');
+    background-size: cover;
+}
+.mech-study-card-6 {
+    background-image:
+        url('../../../../assets/services/infra/mech-master/mech-master-6.png');
+    background-size: cover;
+}
 
 
 img {
