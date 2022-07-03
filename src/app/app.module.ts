@@ -43,6 +43,8 @@ import { MepBuildingComponent } from './components/infrastructural-engineering/m
 import { D3RenderingCivilMechComponent } from './components/infrastructural-engineering/d3-rendering-civil-mech/d3-rendering-civil-mech.component';
 import { GeotechFoundationComponent } from './components/infrastructural-engineering/geotech-foundation/geotech-foundation.component';
 // tslint:disable-next-line:max-line-length
+import {CivilStructServicesComponent} from './components/infrastructural-engineering/civil-struct-services/civil-struct-services.component';
+// tslint:disable-next-line:max-line-length
 import { ConstructionManagementComponent } from './components/infrastructural-engineering/construction-management/construction-management.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -60,7 +62,6 @@ import { GalleryElevenComponent } from './components/gallery/gallery-eleven/gall
 import { GalleryTwelveComponent } from './components/gallery/gallery-twelve/gallery-twelve.component';
 
 
-
 const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'services', component: ServicesInfoComponent },
@@ -75,6 +76,7 @@ const routes: Routes = [
   { path: 'solar-engineering/corrosion-study', component: CorrosionStudyComponent },
   { path: 'solar-engineering/field-testing', component: FieldTestingComponent },
   { path: 'industrial-engineering/arch-civil-struct-services', component: ArchCivilStructServicesComponent },
+  { path: 'industrial-engineering/civil-struct-services', component: CivilStructServicesComponent },
   { path: 'industrial-engineering/mech-process-engineering', component: MechProcessEngineeringComponent },
   { path: 'industrial-engineering/d3-rendering-civil-mech', component: D3RenderingCivilMechComponent },
   { path: 'industrial-engineering/mep-building', component: MepBuildingComponent },
@@ -140,6 +142,7 @@ const routes: Routes = [
     GalleryTenComponent,
     GalleryElevenComponent,
     GalleryTwelveComponent,
+    CivilStructServicesComponent,
   ],
   imports: [
     BrowserModule,
